@@ -4,6 +4,7 @@ import Flatcard from "./Components/Flatcard"
 import ElevatedCard from "./Components/ElevatedCard"
 import FancyCard from "./Components/FancyCard"
 import ActionCard from "./Components/ActionCard"
+import ContactList from "./Components/ContactList"
 
 const App = ()=> {
   return (
@@ -15,6 +16,7 @@ const App = ()=> {
         <FancyCard isTitle={false} title={"Explore the fun"} location={"Mumbai, India"} time={"30min ago"} />
         <FancyCard isTitle={false} title={"Childish Mode"} location={"Bareilly, India"} time={"1min ago"} />
         <ActionCard />
+        <ContactList />
       </ScrollView>
     </SafeAreaView>
   )
